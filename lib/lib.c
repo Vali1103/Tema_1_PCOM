@@ -20,7 +20,7 @@
 
 int interfaces[ROUTER_NUM_INTERFACES];
 
-int get_sock(const char *if_name)
+int get_sock(const char *if_name)	
 {
 	int res;
 	int s = socket(AF_PACKET, SOCK_RAW, 768);

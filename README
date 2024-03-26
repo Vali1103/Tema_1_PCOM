@@ -1,0 +1,18 @@
+Tica Ion Valentin 322CB
+
+Tema 1 Pcom - Tema a fost interesanta dar dificila. A fost greu pana am inteles-o 
+si m-am apucat efectiv de codat. Deoarece nu a fost explicata prea in detaliu si
+desi de la cursuri am inteles, in realitate a fost mai greu neavand nici laboratoare
+rezolvate de pe care sa invatam, nici laborantul prea pregatit sa ne poata ajuta.
+
+
+	Am rezolvat cerintele la rand si in functie de enunt am realizat ce mi s-a
+cerut, ajutandu-ma de functiile deja existente sau de alte micute functii create
+de catre mine. Am verificat destinatia pachetului, checksum-ul , ttl-ul, am 
+actualizat datele din ethernet header si din ip header, iar atunci cand existau
+probleme am intors mesaje de tip icmp la sursa. 
+	Am avut grija in structuri atunci cand erau informatii stocate pe variabile
+mai mari de un octet (uint8_t) sa fac convertirea la host sau la network
+prin functiile explicate in cadrul temei (htons htonl ntohs ntohl).
+
+	 
